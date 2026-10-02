@@ -1,0 +1,41 @@
+@font-face {
+    font-family: Terminal;
+    src: url(/Fonts//Terminal-Grotesque-main/terminal-grotesque.otf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#C{
+    display: block;
+}
+
+.header{
+    background-color: #0000ef;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 16px;
+    z-index: 999;
+    font-family: Terminal, monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clocky{
+    display: flex;
+    flex-direction: row;
+}
+
+
+

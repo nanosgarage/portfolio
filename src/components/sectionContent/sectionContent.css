@@ -1,0 +1,116 @@
+/* Layer that sits on top of the WebGL canvas. It ignores the mouse so the
+   canvas still gets hover/clicks, except on the section that is open. */
+#section-overlay {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+
+}
+
+.section-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1.2em;
+    color: #fff;
+    font-family: "Terminal";
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.125s ease, visibility 0.15s;
+}
+
+.section-content.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.section-content header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.8em;
+}
+
+.section-content h2 {
+    margin: 0;
+    font-size: 1.6em;
+    letter-spacing: 0.05em;
+}
+
+.section-content .close {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: 1px solid currentColor;
+    padding: 0.2em 0.6em;
+    cursor: pointer;
+}
+
+.section-body {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+/* Portfolio */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8em;
+}
+
+.card {
+    display: block;
+    padding: 0.5em;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.card:hover { background: rgba(255, 255, 255, 0.15); }
+
+.card .thumb {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.card h3 { margin: 0.4em 0 0.2em; font-size: 1em; }
+.card p  { margin: 0; font-size: 0.8em; opacity: 0.8; }
+
+/* Downloads */
+.download-list { list-style: none; margin: 0; padding: 0; }
+
+.download-list a {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em 0.4em;
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.download-list a:hover { background: rgba(255, 255, 255, 0.15); }
+
+/* Contact */
+.contact-form { display: flex; flex-direction: column; gap: 0.6em; }
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    font: inherit;
+    color: inherit;
+    padding: 0.5em;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contact-form textarea { min-height: 6em; resize: vertical; }
+.contact-form button { cursor: pointer; }
