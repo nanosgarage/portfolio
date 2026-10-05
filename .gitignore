@@ -1,3 +1,7 @@
-/node_modules
+node_modules/
 Portfolio3.aep
+dist/
 *.blend
+*.blend1
+*.xcf
+Comp1/

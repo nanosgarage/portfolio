@@ -6,7 +6,8 @@ const portfolioItems = [
     { title: 'Dracula Bot',  desc: 'Discord bot that lets you connect to any API and talk to dracula in your discord server. Made as a joke but kinda fun. Uses the DPP library.', img: '/Images/drac.webp', link: 'https://github.com/nanosgarage/DraculaBot' },
     { title: 'Deadlock Motion Graphic',  desc: 'Handmade animation for deadlock characters using my signature vector artstyle. Made in After Effects and Blender.', img: '/Images/DL.webp', link: 'https://x.com/nanosgarage/status/2092283466360771033?s=20' },
     { title: '3D vfx workflow for Youtube Editors',   desc: 'Blender tutorial showcasing how editors on youtube can work with lesss than ideal 3D vfx conditions, and still implement 3D into their work.', img: '/Images/3dEdits.webp', link: 'https://www.youtube.com/watch?v=6MEFe-k45uw' },
-    { title: 'Cold Ones Videos', desc: "I've worked with Cold Ones to create 24 episodes. This playlist includes all the work I've done for them.", img: '/Images/coldones.webp', link: 'https://www.youtube.com/watch?v=VPODr7JDU3w&list=PLch4sLhlMtI4'}
+    { title: 'Cold Ones Videos', desc: "I've worked with Cold Ones to create 24 episodes. This playlist includes all the work I've done for them.", img: '/Images/coldones.webp', link: 'https://www.youtube.com/watch?v=VPODr7JDU3w&list=PLch4sLhlMtI4'},
+    { title: 'Blender addon: Project Setter Upper', desc: 'Blender add-on that allows for quick setup of project hierarchies.', img: '/Images/Blender.webp', link: 'https://github.com/nanosgarage/ProjectSetterUpper' }
 ];
 
 const downloads = [
