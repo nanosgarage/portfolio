@@ -58,7 +58,7 @@ class World{
         this.camera.lookAt(scene.position);
         scene.add(this.camera);
 
-        scene.background = new THREE.Color(0x0043FF);
+        scene.background = new THREE.Color(0x1A1A1A);
 
 
         renderer.setSize(window.innerWidth, window.innerHeight);
@@ -108,7 +108,7 @@ class World{
             panel.children[0].userData.buttonIndex = i;
         });
 
-        this.sdf = new SdfOverlay({color :0x005bfd, rimColor : 0x0000ef});
+        this.sdf = new SdfOverlay({color :0x00000, rimColor : 0x11111});
         this.sdf.setButtons(this.panels);
         scene.add(this.sdf.mesh);
         updateables.push(this.sdf);

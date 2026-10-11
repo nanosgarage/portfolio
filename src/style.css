@@ -18,8 +18,8 @@ html, body {
 }
 
 .header{
-    background-color: #0000ef;
-    color: white;
+    background-color: #fafaff;
+    color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
     left: 0;
