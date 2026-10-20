@@ -48,16 +48,15 @@ export const SECTION_CONTENT = {
         title: 'About',
         html: `
             <h3>Professional Career and Skills</h3> 
-            <p>Professionally I'm a video editor / VFX artist / motion graphics designer / 3D modeller / texture artist. I try to wear a lot of hats basically. <br></p>
-            <p><br>Whether or not that's helped me progress is up for debate, but it's definitely made me realize my ambition towards become a technical artist and becoming a master in my field.</p>
-            <p><br>In terms of clients, I've worked primarily on youtube for 8 years, helping various creators release competent, high quality videos that help seperate them from others. If you're looking for work of that caliber, please get in contact!</p>
+            <p>Professionally I'm a video editor / VFX artist / motion graphics designer / 3D modeller / texture artist. <br></p>
+            <p><br>In terms of clients, I've worked primarily on youtube for 8 years, helping various creators release competent, high quality videos that help seperate them from others.</p>
             <p>I'm also currently employed by Cold Ones, and have been so for around 2 years.</p>
             <h3><br>Professional Timeline (excluding freelance)</h3>
             <p>ImmortalHD -> Offcanny -> Alpharad -> Cold Ones</p>
             <h3><br>Education</h3>
-            <p> I'm currently enrolled at The Georgia Institute of Technology, where I'm completing my masters degree in Computer Science specializing in computer graphics.</p>
-            <p> I completed my undergrad in history (weird given my current pursuits right?) at University of California, Los Angeles.</p>
-            <p> I have zero formal education in video editing and digital creation, I let my existing work speak for itself. </p>
+            <p> I'm currently enrolled at Georgia Tech, where I'm completing my masters degree in Computer Science specializing in computer graphics.</p>
+            <p> I completed my undergrad in history at UCLA.</p>
+            <p> I have zero formal education in video editing or digital creation.</p>
         `,
     },
 
